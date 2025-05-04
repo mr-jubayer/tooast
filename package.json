@@ -1,0 +1,23 @@
+{
+  "name": "tooast",
+  "version": "0.0.1",
+  "description": "Tooast is a lightweight Javascript package written in JavaScript. It was created to provide toaster style notifications without any dependencies.",
+  "main": "index.js",
+  "module": "./index.mjs",     
+  "type": "module",         
+  "exports": {
+    ".": {
+      "require": "./index.js",
+      "import": "./index.mjs"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Tooast",
+    "JavaScript"
+  ],
+  "author": "Jubayer Ahmed",
+  "license": "ISC"
+}
