@@ -2,6 +2,12 @@
 
 A simple, function-based toast notification library for JavaScript. Easily display non-blocking messages to your users.
 
+## install
+
+```bash
+npm install tooast
+```
+
 **Usage:**
 
 In your `app.js`, `App.jsx`:
