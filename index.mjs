@@ -5,6 +5,7 @@ function Tooast(content, options = {}) {
     top = "8px",
     right = "50%",
     border = "#dddddd",
+    color = "black",
   } = options;
 
   const toast = document.createElement("div");
@@ -18,6 +19,7 @@ function Tooast(content, options = {}) {
   toast.style.borderRadius = "5px";
   toast.style.backgroundColor = bg;
   toast.style.zIndex = "1000";
+  toast.style.color = color;
 
   toast.innerText = content;
 
